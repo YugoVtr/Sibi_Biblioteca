@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>frmCad_Editora</class>
+ <widget class="QDialog" name="frmCad_Editora">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>239</width>
+    <height>176</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Editora</string>
+  </property>
+  <layout class="QHBoxLayout" name="horizontalLayout_2">
+   <item>
+    <layout class="QVBoxLayout" name="verticalLayout_2">
+     <item>
+      <layout class="QVBoxLayout" name="verticalLayout">
+       <item>
+        <layout class="QFormLayout" name="formLayout">
+         <item row="0" column="0">
+          <widget class="QLabel" name="nomeLabel">
+           <property name="text">
+            <string>Nome</string>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="1">
+          <widget class="QLineEdit" name="nomeLineEdit"/>
+         </item>
+         <item row="1" column="0">
+          <widget class="QLabel" name="cidadeLabel">
+           <property name="text">
+            <string>Cidade</string>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="1">
+          <widget class="QLineEdit" name="cidadeLineEdit"/>
+         </item>
+         <item row="2" column="0">
+          <widget class="QLabel" name="estadoLabel">
+           <property name="text">
+            <string>Estado</string>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="1">
+          <widget class="QComboBox" name="estadoComboBox">
+           <item>
+            <property name="text">
+             <string>GO</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>ES</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>SP</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>RJ</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>SC</string>
+            </property>
+           </item>
+          </widget>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout">
+       <item>
+        <widget class="QPushButton" name="concluirPushButton">
+         <property name="text">
+          <string>Concluir</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

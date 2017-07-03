@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>frmCad_Endereco</class>
+ <widget class="QDialog" name="frmCad_Endereco">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>374</width>
+    <height>226</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Endereco</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="arquivos.qrc">
+    <normaloff>:/Arquivos/Imagens/endereco.png</normaloff>:/Arquivos/Imagens/endereco.png</iconset>
+  </property>
+  <layout class="QGridLayout" name="gridLayout_4">
+   <item row="0" column="0" colspan="2">
+    <layout class="QGridLayout" name="gridLayout">
+     <item row="0" column="0">
+      <widget class="QLabel" name="logradouroLabel">
+       <property name="font">
+        <font>
+         <pointsize>8</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+         <underline>false</underline>
+        </font>
+       </property>
+       <property name="text">
+        <string>Logradouro :</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="0">
+      <widget class="QLineEdit" name="logradouroLineEdit"/>
+     </item>
+    </layout>
+   </item>
+   <item row="1" column="0" colspan="2">
+    <layout class="QGridLayout" name="gridLayout_2">
+     <item row="0" column="0">
+      <widget class="QLabel" name="bairroLabel">
+       <property name="font">
+        <font>
+         <pointsize>8</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+         <underline>false</underline>
+        </font>
+       </property>
+       <property name="text">
+        <string>Bairro :</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <widget class="QLabel" name="uFLabel">
+       <property name="font">
+        <font>
+         <pointsize>8</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+         <underline>false</underline>
+        </font>
+       </property>
+       <property name="text">
+        <string>UF :</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="0">
+      <widget class="QLineEdit" name="bairroLineEdit">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="1">
+      <widget class="QComboBox" name="uFComboBox">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Preferred" vsizetype="Maximum">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>170</width>
+         <height>25</height>
+        </size>
+       </property>
+       <item>
+        <property name="text">
+         <string>Acre</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Alagoas</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Amapá</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Amazonas</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Bahia</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Ceará</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Distrito Federal</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Espírito Santo</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Goiás</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Maranhão</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Mato Grosso</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Mato Grosso do Sul</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Minas Gerais</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Pará</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Paraíba</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Paraná</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Pernambuco</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Piauí</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Rio de Janeiro</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Rio Grande do Norte</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Rio Grande do Sul</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Rondônia</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Roraima</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Santa Catarina</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>São Paulo</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Sergipe</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Tocantins</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item row="2" column="0" colspan="2">
+    <layout class="QGridLayout" name="gridLayout_3">
+     <item row="0" column="0">
+      <widget class="QLabel" name="cidadeLabel">
+       <property name="font">
+        <font>
+         <pointsize>8</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+         <underline>false</underline>
+        </font>
+       </property>
+       <property name="text">
+        <string>Cidade :</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <widget class="QLabel" name="cEPLabel">
+       <property name="font">
+        <font>
+         <pointsize>8</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+         <underline>false</underline>
+        </font>
+       </property>
+       <property name="text">
+        <string>CEP :</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="2">
+      <widget class="QLabel" name="numeroLabel">
+       <property name="font">
+        <font>
+         <pointsize>8</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+         <underline>false</underline>
+        </font>
+       </property>
+       <property name="text">
+        <string>N° :</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="0">
+      <widget class="QLineEdit" name="cidadeLineEdit">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="1">
+      <widget class="QLineEdit" name="cEPLineEdit">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="2">
+      <widget class="QLineEdit" name="numeroLineEdit">
+       <property name="maximumSize">
+        <size>
+         <width>70</width>
+         <height>25</height>
+        </size>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item row="3" column="0">
+    <spacer name="horizontalSpacer">
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>169</width>
+       <height>20</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item row="3" column="1">
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="QPushButton" name="pushButton_Cancel">
+       <property name="font">
+        <font>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>Cancel</string>
+       </property>
+       <property name="icon">
+        <iconset resource="arquivos.qrc">
+         <normaloff>:/Arquivos/Imagens/cancel.png</normaloff>:/Arquivos/Imagens/cancel.png</iconset>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButton_OK">
+       <property name="font">
+        <font>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>OK</string>
+       </property>
+       <property name="icon">
+        <iconset resource="arquivos.qrc">
+         <normaloff>:/Arquivos/Imagens/OK.png</normaloff>:/Arquivos/Imagens/OK.png</iconset>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <tabstops>
+  <tabstop>logradouroLineEdit</tabstop>
+  <tabstop>bairroLineEdit</tabstop>
+  <tabstop>uFComboBox</tabstop>
+  <tabstop>cidadeLineEdit</tabstop>
+  <tabstop>cEPLineEdit</tabstop>
+  <tabstop>numeroLineEdit</tabstop>
+  <tabstop>pushButton_OK</tabstop>
+  <tabstop>pushButton_Cancel</tabstop>
+ </tabstops>
+ <resources>
+  <include location="arquivos.qrc"/>
+ </resources>
+ <connections/>
+</ui>

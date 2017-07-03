@@ -1,0 +1,3 @@
+9;0;C++, como programar;2006
+29;151;hoje eu sou ladrao;2006
+45;15;teste de murilo;2000

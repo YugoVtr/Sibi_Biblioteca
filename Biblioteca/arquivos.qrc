@@ -1,0 +1,25 @@
+<RCC>
+    <qresource prefix="/">
+        <file>../Arquivos/Imagens/adicionar.png</file>
+        <file>../Arquivos/Imagens/buscar.png</file>
+        <file>../Arquivos/Imagens/cancel.png</file>
+        <file>../Arquivos/Imagens/endereco.png</file>
+        <file>../Arquivos/Imagens/limpar.png</file>
+        <file>../Arquivos/Imagens/listar.png</file>
+        <file>../Arquivos/Imagens/mais.png</file>
+        <file>../Arquivos/Imagens/OK.png</file>
+        <file>../Arquivos/Imagens/sair.png</file>
+        <file>../Arquivos/Imagens/telefone.png</file>
+        <file>../Arquivos/Imagens/usuario.png</file>
+        <file>../Arquivos/Imagens/voltar.png</file>
+        <file>../Arquivos/Imagens/livro.png</file>
+        <file>../Arquivos/Imagens/sibi-puc-goias.gif</file>
+        <file>../Arquivos/Imagens/PUC.png</file>
+        <file>../Arquivos/Imagens/PUC10.png</file>
+        <file>../Arquivos/Imagens/PUC25.png</file>
+        <file>../Arquivos/Imagens/PUC50.png</file>
+        <file>../Arquivos/Imagens/PUC75.png</file>
+        <file>../Arquivos/Imagens/cadastro.png</file>
+        <file>../Arquivos/Imagens/chevron.png</file>
+    </qresource>
+</RCC>
